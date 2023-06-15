@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(94, 91, 91);
+
+}
+
+.productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2px solid green;
+}
+.card{
+    margin: 10px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+.card img{
+    border: 2px solid yellow;
+    border-radius: 20px;
+}
+.card-body{
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+#index-footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
