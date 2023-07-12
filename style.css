@@ -1,12 +1,22 @@
 *{
     margin: 0;
     padding: 0;
+
+}
+
+body{
+    background-color: #febdd1;
 }
 #menu{
     display: flex;
     flex-direction: column;
     background-color: rgb(94, 91, 91);
 
+}
+
+a{
+    text-decoration: underline;
+    color: #000;
 }
 
 .productos{
@@ -33,4 +43,22 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    background-color: #fff;
+    padding-top: 7px;
+}
+
+/*Carrusel*/
+
+.novedades{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    flex-direction: row;
+    border: 2px solid #000;
+}
+
+.carousel-item{
+    max-width: 500px;
+    max-height: 300px;
 }
