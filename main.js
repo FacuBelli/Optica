@@ -19,7 +19,7 @@ document.getElementById("header").innerHTML = `<nav class="navbar navbar-expand-
         <ul class="dropdown-menu">
           <li><a class="dropdown-item" href="receta.html">Receta</a></li>
           <li><a class="dropdown-item" href="sol.html">Sol</a></li>
-          <li><a class="dropdown-item" href="sol.html">Cargar cliente</a></li>
+          <li><a class="dropdown-item" href="clientes.html">Clientes</a></li>
 
         </ul>
       </li>

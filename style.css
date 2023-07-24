@@ -62,3 +62,15 @@ a{
     max-width: 500px;
     max-height: 300px;
 }
+
+/*Clientes*/
+.botonesClientes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonesClientes button{
+    font-size: 1.3rem;
+    margin: 5px;
+}
