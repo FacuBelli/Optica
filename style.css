@@ -38,6 +38,9 @@ a{
     border: 2px solid red;
     border-radius: 20px;
 }
+.card-text{
+    text-align: center;
+}
 
 #footer{
     display: flex;
@@ -46,22 +49,20 @@ a{
     background-color: #fff;
     padding-top: 7px;
 }
+#marcas li{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
 
-/*Carrusel*/
-
-.novedades{
-    display: flex;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    flex-direction: row;
-    border: 2px solid #000;
+    max-width: 75px;
+    max-height: 75px;
+}
+#marcas li img{
+    max-width: 75px;
+    max-height: 75px;
 }
 
-.carousel-item{
-    max-width: 500px;
-    max-height: 300px;
-}
+
 
 /*Clientes*/
 .botonesClientes{

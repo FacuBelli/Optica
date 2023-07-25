@@ -28,3 +28,9 @@ document.getElementById("header").innerHTML = `<nav class="navbar navbar-expand-
 </div>
 </nav>`
 document.getElementById("footer").innerHTML = "<p>Centro Optico Illodo&reg;</p>"
+document.getElementById("footer").innerHTML = `<ul id="marcas">
+<li><img src="./img/anteojosEjemplo.jpg" alt=""></li>
+<li><img src="" alt=""></li>
+<li><img src="" alt=""></li>
+<li><img src="" alt=""></li>
+</ul>`
